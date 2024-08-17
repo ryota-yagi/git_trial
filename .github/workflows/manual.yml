@@ -11,4 +11,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      - name: Aisatsu Part
       - run: echo "${{ inputs.greeting }}"
